@@ -1,0 +1,101 @@
+{
+  "folders": [
+      {
+          "name": "Matematica",
+          "groups": [
+              {
+                  "name": "Algebră",
+                  "cards": [
+                      {
+                          "front": "2 + 2",
+                          "back": "4"
+                      },
+                      {
+                          "front": "3 + 3",
+                          "back": "6"
+                      }
+                  ]
+              },
+              {
+                  "name": "Geometrie",
+                  "cards": [
+                      {
+                          "front": "Lungimea unui triunghi echilateral",
+                          "back": "Latura * 3"
+                      },
+                      {
+                          "front": "Aria unui pătrat",
+                          "back": "Latura * Latura"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Limba Română",
+          "groups": [
+              {
+                  "name": "Literatură",
+                  "cards": [
+                      {
+                          "front": "Ion Creangă",
+                          "back": "Un scriitor român celebru."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      },
+                      {
+                          "front": "Mihai Eminescu",
+                          "back": "Poetul național al României."
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}
