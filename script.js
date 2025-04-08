@@ -12,7 +12,7 @@ fetch("data.json")
 function renderFolders() {
   currentFolder = null;
   currentGroup = null;
-  document.getElementById("header").innerHTML = "<h1>Foldere</h1>";
+  document.getElementById("header").innerHTML = "<h1>Flashcards</h1>";
   const container = document.getElementById("content");
   container.className = "grid";
   container.innerHTML = "";
