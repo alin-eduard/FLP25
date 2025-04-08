@@ -30,12 +30,21 @@
   }
   
   #back-button {
-    background: none;
-    border: none;
+    position: fixed;
+    bottom: 20px; /* Plasează butonul la 20px de jos */
+    left: 50%; /* Aliniază butonul pe mijloc pe orizontală */
+    transform: translateX(-50%); /* Centrează butonul perfect pe orizontală */
+    background: #f0f0f0; /* Culoare mai deschisă pentru un efect subtil */
+    border: 1px solid #ccc; /* Border fin */
+    border-radius: 20px; /* Colțuri rotunjite pentru un aspect mai elegant */
+    color: #333; /* Text întunecat pentru o lizibilitate bună */
     font-size: 1rem;
+    padding: 0.6rem 1.2rem; /* Dimensiuni mai mici pentru un buton mai fin */
     cursor: pointer;
-    padding: 0.5rem 1rem;
-    color: #007bff;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Umbră fină */
+    font-weight: 600;
+    z-index: 1000; /* Asigură-te că butonul va fi mereu vizibil deasupra altor elemente */
   }
   
   /* === GRID LAYOUT === */
