@@ -55,8 +55,17 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  
-  /* === FOLDER & GROUP CARDS === */
+
+  .card-front, .card-back {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .line {
+    margin-bottom: 20px; /* Ajustează valoarea pentru mai mult sau mai puțin spațiu */
+  }
+
   .folder,
   .group {
     background: #fff;
@@ -68,7 +77,11 @@
     text-align: center;
     font-weight: 500;
   }
-  
+
+.line {
+  margin-top: 10px;  /* Ajustează spațiul dintre linii */
+}
+
   .folder:hover,
   .group:hover {
     transform: scale(1.02);
@@ -119,5 +132,9 @@
   .card-back {
     background-color: #fff;
     transform: rotateY(180deg);
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
   }
   

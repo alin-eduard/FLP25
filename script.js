@@ -12,7 +12,7 @@ fetch("data.json")
 function renderFolders() {
   currentFolder = null;
   currentGroup = null;
-  document.getElementById("header").innerHTML = `<h1>Foldere</h1>`;
+  document.getElementById("header").innerHTML = "<h1>Foldere</h1>";
   const container = document.getElementById("content");
   container.className = "grid";
   container.innerHTML = "";
@@ -72,11 +72,12 @@ function renderCards(groupName) {
 
     const front = document.createElement("div");
     front.className = "card-front";
-    front.textContent = card.front;
+    insertTextWithBr(front, card.front);  // Adăugăm textul și înlocuim "/#" cu <br>
 
     const back = document.createElement("div");
     back.className = "card-back";
-    back.textContent = card.back;
+    insertTextWithBr(back, card.back);  // Adăugăm textul și înlocuim "/#" cu <br>
+    back.style.backgroundColor = card.color || "#fff"; // Setăm culoarea albă pentru spatele cardului
 
     inner.appendChild(front);
     inner.appendChild(back);
@@ -88,4 +89,15 @@ function renderCards(groupName) {
       cardDiv.classList.toggle("flipped");
     });
   });
+}
+
+// Funcția care inserează textul și înlocuiește "/#" cu <br> și păstrează tag-urile HTML
+function insertTextWithBr(element, text) {
+  const formattedText = text.replace('<br>', '<div class="line"></div>');  // Înlocuim "/#" cu <br>
+  
+  const div = document.createElement('div');
+  div.innerHTML = formattedText;  // Setăm HTML-ul în element
+
+  // Adăugăm toate elementele procesate în elementul țintă
+  element.appendChild(div);
 }

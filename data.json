@@ -1,100 +1,110 @@
 {
     "folders": {
-      "Științe Naturale": {
-        "groups": {
-          "Biologie": [
-            {
-              "front": "Ce este ADN-ul?",
-              "back": "Acid dezoxiribonucleic, material genetic al organismelor",
-              "color": "#f94144"
-            },
-            {
-              "front": "Unde se produce fotosinteza?",
-              "back": "În cloroplastele celulelor vegetale",
-              "color": "#90be6d"
+        "Folder1": {
+            "groups": {
+                "Group1": [
+                    {
+                        "front": "Text 1 în galben pal",
+                        "back": "Explicație pentru galben pal",
+                        "color": "#FAD02E"
+                    },
+                    {
+                        "front": "Text 2 în portocaliu pal",
+                        "back": "Explicație pentru portocaliu pal",
+                        "color": "#F28D35"
+                    },
+                    {
+                        "front": "Text 3 în roșu pal",
+                        "back": "Explicație pentru roșu pal",
+                        "color": "#D83367"
+                    },
+                    {
+                        "front": "Text 4 în roșu intens pal",
+                        "back": "Explicație pentru roșu intens pal",
+                        "color": "#C72C41"
+                    },
+                    {
+                        "front": "Text 5 în albastru pal",
+                        "back": "Explicație pentru albastru pal",
+                        "color": "#5F6CAF"
+                    },
+                    {
+                        "front": "Text 6 în albastru deschis pal",
+                        "back": "Explicație pentru albastru deschis pal",
+                        "color": "#96B0C1"
+                    },
+                    {
+                        "front": "Text 7 în verde deschis pal",
+                        "back": "Explicație pentru verde deschis pal",
+                        "color": "#A1D6D3"
+                    },
+                    {
+                        "front": "Text 8 în roz pal",
+                        "back": "Explicație pentru roz pal",
+                        "color": "#FFDAE0"
+                    },
+                    {
+                        "front": "Text 9 în albastru deschis pal",
+                        "back": "Explicație pentru albastru deschis pal",
+                        "color": "#C8E0F3"
+                    },
+                    {
+                        "front": "Text 10 în piersică pală",
+                        "back": "Explicație pentru piersică pală",
+                        "color": "#F1E1D4"
+                    },
+                    {
+                        "front": "Text 11 în verde lime pal",
+                        "back": "Explicație pentru verde lime pal",
+                        "color": "#D4E157"
+                    },
+                    {
+                        "front": "Text 12 în gri albastrui pal",
+                        "back": "Explicație pentru gri albastrui pal",
+                        "color": "#D4E0E6"
+                    },
+                    {
+                        "front": "Text 13 în galben lămâie pal",
+                        "back": "Explicație pentru galben lămâie pal",
+                        "color": "#E6EE9C"
+                    },
+                    {
+                        "front": "Text 14 în roz foarte pal",
+                        "back": "Explicație pentru roz foarte pal",
+                        "color": "#FFB7C5"
+                    },
+                    {
+                        "front": "Text 15 în turcoaz pal",
+                        "back": "Explicație pentru turcoaz pal",
+                        "color": "#E0F7FA"
+                    },
+                    {
+                        "front": "Text 16 în verde apă pal",
+                        "back": "Explicație pentru verde apă pal",
+                        "color": "#B2DFDB"
+                    },
+                    {
+                        "front": "Text 17 în cremă pală",
+                        "back": "Explicație pentru cremă pală",
+                        "color": "#FFF3E0"
+                    },
+                    {
+                        "front": "Text 18 în gri foarte deschis",
+                        "back": "Explicație pentru gri foarte deschis",
+                        "color": "#F5F5F5"
+                    },
+                    {
+                        "front": "Text 19 în lavandă pală",
+                        "back": "Explicație pentru lavandă pală",
+                        "color": "#B39DDB"
+                    },
+                    {
+                        "front": "Text 20 în roz pal spre alb",
+                        "back": "Explicație pentru roz pal spre alb",
+                        "color": "#FFEBEE"
+                    }
+                ]
             }
-          ],
-          "Fizică": [
-            {
-              "front": "Formula vitezei?",
-              "back": "v = d / t",
-              "color": "#f3722c"
-            },
-            {
-              "front": "Unitatea de măsură pentru forță?",
-              "back": "Newton (N)",
-              "color": "#577590"
-            }
-          ]
         }
-      },
-      "Matematică": {
-        "groups": {
-          "Aritmetică": [
-            {
-              "front": "Ce este un număr prim?",
-              "back": "Număr cu exact doi divizori: 1 și el însuși",
-              "color": "#43aa8b"
-            },
-            {
-              "front": "Care este cel mai mic număr prim?",
-              "back": "2",
-              "color": "#f9844a"
-            }
-          ],
-          "Geometrie": [
-            {
-              "front": "Suma unghiurilor într-un triunghi?",
-              "back": "180°",
-              "color": "#f9c74f"
-            },
-            {
-              "front": "Cum se calculează aria cercului?",
-              "back": "A = π × r²",
-              "color": "#90be6d"
-            }
-          ]
-        }
-      },
-      "Limbă Română": {
-        "groups": {
-          "Sinonime": [
-            {
-              "front": "Sinonim pentru „fericit”?",
-              "back": "Bucuros",
-              "color": "#4d908e"
-            },
-            {
-              "front": "Sinonim pentru „inteligent”?",
-              "back": "Deștept",
-              "color": "#577590"
-            }
-          ],
-          "Părți de vorbire": [
-            {
-              "front": "Ce este un adjectiv?",
-              "back": "Cuvânt care determină un substantiv și exprimă o însușire",
-              "color": "#f94144"
-            }
-          ]
-        }
-      },
-      "Istorie": {
-        "groups": {
-          "România": [
-            {
-              "front": "Anul Marii Uniri?",
-              "back": "1918",
-              "color": "#f3722c"
-            },
-            {
-              "front": "Domnia lui Ștefan cel Mare?",
-              "back": "1457 – 1504",
-              "color": "#43aa8b"
-            }
-          ]
-        }
-      }
     }
-  }
-  
+}
