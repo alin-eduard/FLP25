@@ -1,107 +1,107 @@
 {
     "folders": {
-        "Folder1": {
+        "Colors": {
             "groups": {
-                "Group1": [
+                "20 Colors": [
                     {
                         "front": "Text 1 în galben pal",
                         "back": "Explicație pentru galben pal",
-                        "color": "#FAD02E"
+                        "color": "#F1E1A6"
                     },
                     {
                         "front": "Text 2 în portocaliu pal",
                         "back": "Explicație pentru portocaliu pal",
-                        "color": "#F28D35"
+                        "color": "#F1C1A6"
                     },
                     {
                         "front": "Text 3 în roșu pal",
                         "back": "Explicație pentru roșu pal",
-                        "color": "#D83367"
+                        "color": "#E29B97"
                     },
                     {
                         "front": "Text 4 în roșu intens pal",
                         "back": "Explicație pentru roșu intens pal",
-                        "color": "#C72C41"
+                        "color": "#D38B7A"
                     },
                     {
                         "front": "Text 5 în albastru pal",
                         "back": "Explicație pentru albastru pal",
-                        "color": "#5F6CAF"
+                        "color": "#A2B9D3"
                     },
                     {
                         "front": "Text 6 în albastru deschis pal",
                         "back": "Explicație pentru albastru deschis pal",
-                        "color": "#96B0C1"
+                        "color": "#A6C8D9"
                     },
                     {
                         "front": "Text 7 în verde deschis pal",
                         "back": "Explicație pentru verde deschis pal",
-                        "color": "#A1D6D3"
+                        "color": "#A8D0C0"
                     },
                     {
                         "front": "Text 8 în roz pal",
                         "back": "Explicație pentru roz pal",
-                        "color": "#FFDAE0"
+                        "color": "#F1C6D6"
                     },
                     {
                         "front": "Text 9 în albastru deschis pal",
                         "back": "Explicație pentru albastru deschis pal",
-                        "color": "#C8E0F3"
+                        "color": "#A6D3E3"
                     },
                     {
                         "front": "Text 10 în piersică pală",
                         "back": "Explicație pentru piersică pală",
-                        "color": "#F1E1D4"
+                        "color": "#F1D6B5"
                     },
                     {
                         "front": "Text 11 în verde lime pal",
                         "back": "Explicație pentru verde lime pal",
-                        "color": "#D4E157"
+                        "color": "#B7D78B"
                     },
                     {
                         "front": "Text 12 în gri albastrui pal",
                         "back": "Explicație pentru gri albastrui pal",
-                        "color": "#D4E0E6"
+                        "color": "#D1D8D7"
                     },
                     {
                         "front": "Text 13 în galben lămâie pal",
                         "back": "Explicație pentru galben lămâie pal",
-                        "color": "#E6EE9C"
+                        "color": "#E1E8A5"
                     },
                     {
                         "front": "Text 14 în roz foarte pal",
                         "back": "Explicație pentru roz foarte pal",
-                        "color": "#FFB7C5"
+                        "color": "#F1D3E4"
                     },
                     {
                         "front": "Text 15 în turcoaz pal",
                         "back": "Explicație pentru turcoaz pal",
-                        "color": "#E0F7FA"
+                        "color": "#A7E8E9"
                     },
                     {
                         "front": "Text 16 în verde apă pal",
                         "back": "Explicație pentru verde apă pal",
-                        "color": "#B2DFDB"
+                        "color": "#B8E3E1"
                     },
                     {
                         "front": "Text 17 în cremă pală",
                         "back": "Explicație pentru cremă pală",
-                        "color": "#FFF3E0"
+                        "color": "#F1E1C8"
                     },
                     {
                         "front": "Text 18 în gri foarte deschis",
                         "back": "Explicație pentru gri foarte deschis",
-                        "color": "#F5F5F5"
+                        "color": "#E1E1E1"
                     },
                     {
                         "front": "Text 19 în lavandă pală",
                         "back": "Explicație pentru lavandă pală",
-                        "color": "#B39DDB"
+                        "color": "#B3A9D9"
                     },
                     {
                         "front": "Text 20 în roz pal spre alb",
                         "back": "Explicație pentru roz pal spre alb",
-                        "color": "#FFEBEE"
+                        "color": "#F1D8D6"
                     }
                 ]
             }

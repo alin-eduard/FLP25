@@ -7,9 +7,9 @@
   
   body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #f9f9f9;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Fundal închis */
+    color: #e0e0e0; /* Text deschis pentru contrast */
   }
   
   /* === CONTAINER === */
@@ -27,24 +27,25 @@
   
   h1 {
     font-size: 2rem;
+    color: #e0e0e0; /* Textul titlului în lumină */
   }
   
   #back-button {
     position: fixed;
-    bottom: 20px; /* Plasează butonul la 20px de jos */
-    left: 50%; /* Aliniază butonul pe mijloc pe orizontală */
-    transform: translateX(-50%); /* Centrează butonul perfect pe orizontală */
-    background: #f0f0f0; /* Culoare mai deschisă pentru un efect subtil */
-    border: 1px solid #ccc; /* Border fin */
-    border-radius: 20px; /* Colțuri rotunjite pentru un aspect mai elegant */
-    color: #333; /* Text întunecat pentru o lizibilitate bună */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333; /* Fundal închis pentru buton */
+    border: 1px solid #444; /* Border mai subtil */
+    border-radius: 25px; /* Colțuri rotunjite */
+    color: #e0e0e0; /* Text deschis pentru contrast */
     font-size: 1rem;
-    padding: 0.6rem 1.2rem; /* Dimensiuni mai mici pentru un buton mai fin */
+    padding: 0.6rem 1.2rem;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Umbră fină */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Umbră fină pentru buton */
     font-weight: 600;
-    z-index: 1000; /* Asigură-te că butonul va fi mereu vizibil deasupra altor elemente */
+    z-index: 1000;
   }
   
   /* === GRID LAYOUT === */
@@ -52,6 +53,33 @@
     display: grid;
     gap: 1rem;
     margin-top: 1rem;
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: #000000; /* Text negru pe carduri */
+    transition: background 0.3s ease;
+  }
+  
+  .card-front {
+    background-color: var(--card-color, #444); /* Fundal mai deschis pentru fața cardului */
+  }
+  
+  .card-back {
+    background-color: #333; /* Fundal mai deschis pentru spatele cardului */
+    transform: rotateY(180deg);
   }
   
   @media (max-width: 600px) {
@@ -64,39 +92,41 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
-  .card-front, .card-back {
+  
+  .card-front,
+  .card-back {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
-
+  
   .line {
-    margin-bottom: 20px; /* Ajustează valoarea pentru mai mult sau mai puțin spațiu */
+    margin-bottom: 20px;
   }
-
+  
   .folder,
   .group {
-    background: #fff;
+    background: #1f1f1f; /* Fundal închis pentru foldere și grupuri */
     padding: 1.2rem;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
     font-weight: 500;
+    color: #e0e0e0; /* Text deschis */
   }
-
-.line {
-  margin-top: 10px;  /* Ajustează spațiul dintre linii */
-}
-
+  
   .folder:hover,
   .group:hover {
     transform: scale(1.02);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Umbră mai puternică la hover */
   }
   
-  /* === FLASHCARD === */
+  .line {
+    margin-top: 10px;
+  }
+  
   .card {
     perspective: 1000px;
     width: 100%;
@@ -112,7 +142,7 @@
     transition: transform 0.6s;
   }
   
-  /* Flip when clicked (JS adds class) */
+  /* Flip când este apăsat */
   .card.flipped .card-inner {
     transform: rotateY(180deg);
   }
@@ -125,7 +155,7 @@
     backface-visibility: hidden;
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,15 +165,15 @@
   }
   
   .card-front {
-    background-color: var(--card-color, #ddd);
+    background-color: var(--card-color, #444); /* Fundal mai deschis pentru fața cardului */
   }
   
   .card-back {
-    background-color: #fff;
+    background-color: #333; /* Fundal mai deschis pentru spatele cardului */
     transform: rotateY(180deg);
   }
-
-body {
+  
+  body {
     font-family: 'Poppins', sans-serif;
   }
   
