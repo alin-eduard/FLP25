@@ -2,6 +2,14 @@ let data;
 let currentFolder = null;
 let currentGroup = null;
 
+// Lista de culori posibile
+const colors = [
+  "#F1E1A6", "#F1C1A6", "#E29B97", "#D38B7A", "#A2B9D3", 
+  "#A6C8D9", "#A8D0C0", "#F1C6D6", "#A6D3E3", "#F1D6B5", 
+  "#B7D78B", "#D1D8D7", "#E1E8A5", "#F1D3E4", "#A7E8E9", 
+  "#B8E3E1", "#F1E1C8", "#E1E1E1", "#B3A9D9", "#F1D8D6"
+];
+
 fetch("data.json")
   .then(res => res.json())
   .then(json => {
@@ -65,7 +73,10 @@ function renderCards(groupName) {
   cards.forEach(card => {
     const cardDiv = document.createElement("div");
     cardDiv.className = "card";
-    cardDiv.style.setProperty("--card-color", card.color || "#eee");
+
+    // Alege o culoare random din lista
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    cardDiv.style.setProperty("--card-color", randomColor);
 
     const inner = document.createElement("div");
     inner.className = "card-inner";
@@ -77,7 +88,7 @@ function renderCards(groupName) {
     const back = document.createElement("div");
     back.className = "card-back";
     insertTextWithBr(back, card.back);  // Adăugăm textul și înlocuim "/#" cu <br>
-    back.style.backgroundColor = card.color || "#fff"; // Setăm culoarea albă pentru spatele cardului
+    back.style.backgroundColor = randomColor; // Setăm culoarea aleasă aleatoriu
 
     inner.appendChild(front);
     inner.appendChild(back);
