@@ -2,6 +2,20 @@
     "folders": {
         "Glasul Scripturii": {
             "groups": {
+                "Dragostea": [
+                    {
+                        "front": "Dumnezeu face lucruri neașteptate pentru cei ce-L iubesc.",
+                        "back": "<b>1 Corinteni 2:9</b><br><i>Lucruri pe care ochiul nu le-a văzut, urechea nu le-a auzit și la inima omului nu s-au suit, așa sunt lucrurile pe care le-a pregătit Dumnezeu pentru cei ce-L iubesc.</i>"
+                    },
+                    {
+                        "front": "Cum lucrează lucrurile pentru cei ce-L iubesc pe Dumnezeu?",
+                        "back": "<b>Romani 8:28</b><br><i>De altă parte, știm că toate lucrurile lucrează împreună spre binele celor ce iubesc pe Dumnezeu, și anume spre binele celor ce sunt chemați după planul Său.</i>"
+                    },
+                    {
+                        "front": "4 Caracteristici<br>(DDAP)",
+                        "back": "• Desăvârșită [Matei 5]<br>• Devotată [1 Petru 1:22]<br>• Autentică [Romani 12:9]<br>• Practicată [1 Ioan 3:18]"
+                    }
+                ],
                 "Bucuria": [
                     {
                         "front": "Ce produce rugăciunea ascultată?",
@@ -28,6 +42,20 @@
                         "color": "#F1E1A6"
                     }
                 ],
+                "Îndelunga Răbdare": [
+                    {
+                        "front": "Abundența de răbdare a lui Dumnezeu",
+                        "back": "<b>Romani 2:4</b><br><i>…bogățiile îndelungii Lui răbdări...</i>"
+                    },
+                    {
+                        "front": "Un comportament demn de chemarea lui Dumnezeu",
+                        "back": "<b>Efeseni 4:1-2</b><br><i>…să vă purtați într-un chip vrednic de chemarea pe care ați primit-o... cu îndelungă răbdare, îngăduiți-vă unii pe alții în dragoste...</i>"
+                    },
+                    {
+                        "front": "Pavel - un rezultat al îndurării lui Dumnezeu",
+                        "back": "<b>1 Timotei 1:16</b><br><i>…dar am căpătat îndurare, pentru ca Isus Hristos să-Și ararte în mine… toată îndelunga Lui răbdare…</i>"
+                    }
+                ],
                 "Bunătatea": [
                     {
                         "front": "Față de cine și-a arătat Dumnezeu bunătatea?",
@@ -37,10 +65,15 @@
                         "front": "Cum trebuie să fie credincioșii unii cu alții?",
                         "back": "<b>Efeseni 4:32</b><br><i>…fiți buni unii cu alții, miloși, iertați-vă unul pe altul, cum v-a iertat și Dumnezeu pe voi în Hristos.</i>"
                     }
-                    ,
+                ],
+                "Facerea de bine": [
                     {
-                        "front": "Cum trebuie să fie credincioșii unii cu alții?",
-                        "back": "<b>Efeseni 4:32</b><br><i>…fiți buni unii cu alții, miloși, iertați-vă unul pe altul, cum v-a iertat și Dumnezeu pe voi în Hristos.</i>"
+                        "front": "Sunt oamenii buni prin natura lor?",
+                        "back": "<b>Romani 7:18</b><br><i>Știu în adevăr, că nimic bun nu locuiește in mine, adică în firea mea pământească...</i>"
+                    },
+                    {
+                        "front": "Cum ajunge omul să înfăptuiească binele?",
+                        "back": "<b>2 Timotei 3:16-17</b><br><i>toată Scriptura este insuflată de Dumnezeu și de folos ca să învețe, să mustre și să îndrepte, să dea înțelepciune ... pentru ca omul lui Dumnezeu să fie desăvârșit pentru orice lucrare bună</i>"
                     }
                 ],
                 "Template": [
