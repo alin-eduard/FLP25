@@ -1,101 +1,100 @@
 {
-  "folders": [
-      {
-          "name": "Matematica",
-          "groups": [
-              {
-                  "name": "Algebră",
-                  "cards": [
-                      {
-                          "front": "2 + 2",
-                          "back": "4"
-                      },
-                      {
-                          "front": "3 + 3",
-                          "back": "6"
-                      }
-                  ]
-              },
-              {
-                  "name": "Geometrie",
-                  "cards": [
-                      {
-                          "front": "Lungimea unui triunghi echilateral",
-                          "back": "Latura * 3"
-                      },
-                      {
-                          "front": "Aria unui pătrat",
-                          "back": "Latura * Latura"
-                      }
-                  ]
-              }
+    "folders": {
+      "Științe Naturale": {
+        "groups": {
+          "Biologie": [
+            {
+              "front": "Ce este ADN-ul?",
+              "back": "Acid dezoxiribonucleic, material genetic al organismelor",
+              "color": "#f94144"
+            },
+            {
+              "front": "Unde se produce fotosinteza?",
+              "back": "În cloroplastele celulelor vegetale",
+              "color": "#90be6d"
+            }
+          ],
+          "Fizică": [
+            {
+              "front": "Formula vitezei?",
+              "back": "v = d / t",
+              "color": "#f3722c"
+            },
+            {
+              "front": "Unitatea de măsură pentru forță?",
+              "back": "Newton (N)",
+              "color": "#577590"
+            }
           ]
+        }
       },
-      {
-          "name": "Limba Română",
-          "groups": [
-              {
-                  "name": "Literatură",
-                  "cards": [
-                      {
-                          "front": "Ion Creangă",
-                          "back": "Un scriitor român celebru."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      },
-                      {
-                          "front": "Mihai Eminescu",
-                          "back": "Poetul național al României."
-                      }
-                  ]
-              }
+      "Matematică": {
+        "groups": {
+          "Aritmetică": [
+            {
+              "front": "Ce este un număr prim?",
+              "back": "Număr cu exact doi divizori: 1 și el însuși",
+              "color": "#43aa8b"
+            },
+            {
+              "front": "Care este cel mai mic număr prim?",
+              "back": "2",
+              "color": "#f9844a"
+            }
+          ],
+          "Geometrie": [
+            {
+              "front": "Suma unghiurilor într-un triunghi?",
+              "back": "180°",
+              "color": "#f9c74f"
+            },
+            {
+              "front": "Cum se calculează aria cercului?",
+              "back": "A = π × r²",
+              "color": "#90be6d"
+            }
           ]
+        }
+      },
+      "Limbă Română": {
+        "groups": {
+          "Sinonime": [
+            {
+              "front": "Sinonim pentru „fericit”?",
+              "back": "Bucuros",
+              "color": "#4d908e"
+            },
+            {
+              "front": "Sinonim pentru „inteligent”?",
+              "back": "Deștept",
+              "color": "#577590"
+            }
+          ],
+          "Părți de vorbire": [
+            {
+              "front": "Ce este un adjectiv?",
+              "back": "Cuvânt care determină un substantiv și exprimă o însușire",
+              "color": "#f94144"
+            }
+          ]
+        }
+      },
+      "Istorie": {
+        "groups": {
+          "România": [
+            {
+              "front": "Anul Marii Uniri?",
+              "back": "1918",
+              "color": "#f3722c"
+            },
+            {
+              "front": "Domnia lui Ștefan cel Mare?",
+              "back": "1457 – 1504",
+              "color": "#43aa8b"
+            }
+          ]
+        }
       }
-  ]
-}
+    }
+  }
+  
