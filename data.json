@@ -1,107 +1,56 @@
 {
     "folders": {
-        "Colors": {
+        "Glasul Scripturii": {
             "groups": {
-                "20 Colors": [
+                "Bucuria": [
                     {
-                        "front": "Text 1 în galben pal",
-                        "back": "Explicație pentru galben pal",
+                        "front": "Ce produce rugăciunea ascultată?",
+                        "back": "<b>Ioan 16:24</b><br><i>…cereți și veți căpăta, pentru ca bucuria voastră să fie deplină!</i>"
+                    },
+                    {
+                        "front": "Cum se păstrează unitatea făcută de Duhul Sfânt?",
+                        "back": "<b>Efeseni 4:3</b><br><i>…căutați să păstrați unirea Duhului, prin legătura păcii.</i>"
+                    },
+                    {
+                        "front": "Motive de bucurie (3)",
+                        "back": "• mântuire [Luca 2:10, 11; Psalmul 51:12]<br>• întoarcerea fiului pierdut [Luca 15:7]<br>• bucuria altora [Romani 12:15]"
+                    }
+                ],
+                "Pacea": [
+                    {
+                        "front": "Dorința lui Dumnezeu",
+                        "back": "<b>Coloseni 1:19-20</b><br><i>Căci Dumnezeu a vrut ca toată plinătatea să locuiască în El și să împace totul cu Sine prin El, atât ce este pe pământ, cât şi ce este în ceruri, făcând pace prin sângele crucii Lui.</i>",
                         "color": "#F1E1A6"
                     },
                     {
-                        "front": "Text 2 în portocaliu pal",
-                        "back": "Explicație pentru portocaliu pal",
-                        "color": "#F1C1A6"
+                        "front": "Cum se păstrează unitatea făcută de Duhul Sfânt?",
+                        "back": "<b>Efeseni 4:3</b><br><i>…căutați să păstrați unirea Duhului, prin legătura păcii.</i>",
+                        "color": "#F1E1A6"
+                    }
+                ],
+                "Bunătatea": [
+                    {
+                        "front": "Față de cine și-a arătat Dumnezeu bunătatea?",
+                        "back": "<b>Tit 3:3-5</b><br><i>eram altădată fără minte, neascultători, rătăciți, robiți de tot felul de pofte și de plăceri, trăind în răutate și în pizmă, vrednici să fim urâți și urându-ne unii pe alții… dar când s-a arătat bunătatea lui Dumnezeu… El ne-a mântuit…</i>"
                     },
                     {
-                        "front": "Text 3 în roșu pal",
-                        "back": "Explicație pentru roșu pal",
-                        "color": "#E29B97"
+                        "front": "Cum trebuie să fie credincioșii unii cu alții?",
+                        "back": "<b>Efeseni 4:32</b><br><i>…fiți buni unii cu alții, miloși, iertați-vă unul pe altul, cum v-a iertat și Dumnezeu pe voi în Hristos.</i>"
+                    }
+                    ,
+                    {
+                        "front": "Cum trebuie să fie credincioșii unii cu alții?",
+                        "back": "<b>Efeseni 4:32</b><br><i>…fiți buni unii cu alții, miloși, iertați-vă unul pe altul, cum v-a iertat și Dumnezeu pe voi în Hristos.</i>"
+                    }
+                ],
+                "Template": [
+                    {
+                        "front": "TITLE",
+                        "back": "<b>VERSET</b><br><i>CONTENT</i>"
                     },
                     {
-                        "front": "Text 4 în roșu intens pal",
-                        "back": "Explicație pentru roșu intens pal",
-                        "color": "#D38B7A"
-                    },
-                    {
-                        "front": "Text 5 în albastru pal",
-                        "back": "Explicație pentru albastru pal",
-                        "color": "#A2B9D3"
-                    },
-                    {
-                        "front": "Text 6 în albastru deschis pal",
-                        "back": "Explicație pentru albastru deschis pal",
-                        "color": "#A6C8D9"
-                    },
-                    {
-                        "front": "Text 7 în verde deschis pal",
-                        "back": "Explicație pentru verde deschis pal",
-                        "color": "#A8D0C0"
-                    },
-                    {
-                        "front": "Text 8 în roz pal",
-                        "back": "Explicație pentru roz pal",
-                        "color": "#F1C6D6"
-                    },
-                    {
-                        "front": "Text 9 în albastru deschis pal",
-                        "back": "Explicație pentru albastru deschis pal",
-                        "color": "#A6D3E3"
-                    },
-                    {
-                        "front": "Text 10 în piersică pală",
-                        "back": "Explicație pentru piersică pală",
-                        "color": "#F1D6B5"
-                    },
-                    {
-                        "front": "Text 11 în verde lime pal",
-                        "back": "Explicație pentru verde lime pal",
-                        "color": "#B7D78B"
-                    },
-                    {
-                        "front": "Text 12 în gri albastrui pal",
-                        "back": "Explicație pentru gri albastrui pal",
-                        "color": "#D1D8D7"
-                    },
-                    {
-                        "front": "Text 13 în galben lămâie pal",
-                        "back": "Explicație pentru galben lămâie pal",
-                        "color": "#E1E8A5"
-                    },
-                    {
-                        "front": "Text 14 în roz foarte pal",
-                        "back": "Explicație pentru roz foarte pal",
-                        "color": "#F1D3E4"
-                    },
-                    {
-                        "front": "Text 15 în turcoaz pal",
-                        "back": "Explicație pentru turcoaz pal",
-                        "color": "#A7E8E9"
-                    },
-                    {
-                        "front": "Text 16 în verde apă pal",
-                        "back": "Explicație pentru verde apă pal",
-                        "color": "#B8E3E1"
-                    },
-                    {
-                        "front": "Text 17 în cremă pală",
-                        "back": "Explicație pentru cremă pală",
-                        "color": "#F1E1C8"
-                    },
-                    {
-                        "front": "Text 18 în gri foarte deschis",
-                        "back": "Explicație pentru gri foarte deschis",
-                        "color": "#E1E1E1"
-                    },
-                    {
-                        "front": "Text 19 în lavandă pală",
-                        "back": "Explicație pentru lavandă pală",
-                        "color": "#B3A9D9"
-                    },
-                    {
-                        "front": "Text 20 în roz pal spre alb",
-                        "back": "Explicație pentru roz pal spre alb",
-                        "color": "#F1D8D6"
+                        "front": "TITLE",
+                        "back": "<b>VERSET</b><br><i>CONTENT</i>"
                     }
                 ]
             }
