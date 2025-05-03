@@ -100,6 +100,16 @@
                         "back": "<b>Iacov 2:1</b><br><i>...primiți cu blândețe Cuvântul sădit în voi...</i>"
                     }
                 ],
+                "Înfrânarea poftelor": [
+                    {
+                        "front": "Cu cine se războiesc poftele?",
+                        "back": "<b>1 Petru 2:11</b><br><i>Preaiubiților, vă sfătuiesc ca pe niște străini și călători, să vă feriți de poftele firii pământești care se războiesc cu sufletul.</i>"
+                    },
+                    {
+                        "front": "Care este răsplata celor ce au autocontrol?",
+                        "back": "<b>1 Corinteni 9:25</b><br><i>O cunună care nu se poate vesteji.</i>"
+                    },
+                ],
                 "Template": [
                     {
                         "front": "TITLE",
