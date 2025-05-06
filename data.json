@@ -126,8 +126,8 @@
             "groups": {
                 "Alfabet": [
                     {
-                        "front": "A",
-                        "back": "alfa <br> alpha"
+                        "front": "Α α"
+                        "back": "alpha<br>άλφα"
                     },
                     {
                         "front": "A",
