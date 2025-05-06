@@ -121,6 +121,20 @@
                     }
                 ]
             }
+        },
+        "Greek": {
+            "groups": {
+                "Alfabet": [
+                    {
+                        "front": "A",
+                        "back": "alfa <br> alpha"
+                    },
+                    {
+                        "front": "A",
+                        "back": "alfa <br> alpha"
+                    }
+                ]
+            }
         }
     }
 }
